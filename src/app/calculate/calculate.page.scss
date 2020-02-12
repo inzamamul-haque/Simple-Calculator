@@ -1,0 +1,73 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  color: #1e2023;
+  background-color: azure;
+}
+.h-dis {
+  font-size: larger;
+}
+.ion-input {
+  padding-left: 10px;
+  font-size: larger;
+  width: 10%;
+  padding: 12px 10px;
+  margin: 12px 6px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.log-in-button1 {
+  width: 35%;
+  margin-left: 11%;
+  background-color: #3880ff;
+  color: #ffffff;
+  padding: 0px 0px;
+  margin: 33px 29px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.log-in-button2 {
+  width: 35%;
+  background-color: #3880ff;
+  color: #ffffff;
+  padding: 0px 0px;
+  margin: 33px 0px;
+  margin-left: 6%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.myClass{
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+.label{
+  font-size: larger;
+  padding-left: 5px;
+  padding-top: 30px;
+}
+.footer{
+  color: blue;
+  padding-top: 10%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.label2{
+  color: red;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-top: 30px;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "simpleCalculator",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Simple calculate</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label class="h-dis">Weight:</ion-label>
+    <ion-input class="ion-input" [(ngModel)]="num1" type="number" placeholder="Enter Value"></ion-input>
+    <ion-input class="ion-input"  [(ngModel)]="num2" type="number" placeholder="Enter Value" ></ion-input>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-label class="h-dis">Price: </ion-label>
+    <ion-input class="ion-input" [(ngModel)]="num4" type="number" placeholder="Enter Value"></ion-input>
+  </ion-item>
+
+
+      <ion-button class="log-in-button1" (click)="multiple()">Calculate</ion-button>
+      <ion-button class="log-in-button2" (click)="refresh()">Clear</ion-button>
+
+  <ion-item>
+    <ion-label class="label2">Result: </ion-label>
+    <ion-text class="label2" disabled>{{num5}}</ion-text>
+  </ion-item>
+
+  <ion-footer class="footer">
+    <ion-label>Rasel Hossain</ion-label>
+  </ion-footer>
+</ion-content>
